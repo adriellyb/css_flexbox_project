@@ -1,0 +1,67 @@
+/* General */
+:root {
+    --bg-dark: #0E1015;
+    --bg-btn: #14171F;
+    --txt-white: #E3E4E8;
+    --txt-lilac: #918FC2;
+    --txt-green: #61D1AC;
+    --txt-gray: #A1A4AA;
+    --txt-yellow: #ECF589;
+    --txt-pink: #EC91D8;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg-dark);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Merriweather Sans', sans-serif;
+    /* font-weight: bold; */
+    color: var(--txt-lilac);
+    letter-spacing: 2px;
+    font-size: 1.25em;
+}
+
+.header a {
+    color: var(--txt-white);
+    font-weight: bold;
+    background: var(--bg-btn);
+    border-radius: 8px;
+
+    padding: 12px 24px;
+}
+
+.header a:hover {
+    transition: all .5s;
+    background: #1f2430;
+}
