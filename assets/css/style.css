@@ -149,6 +149,11 @@ img {
     margin-bottom: 40px;
 }
 
+.hero a:hover {
+    transition: all .5s;
+    opacity: .8;
+}
+
 .hero h2 {
     color: var(--txt-green);
     letter-spacing: 1px;
@@ -451,6 +456,11 @@ img {
     margin-top: 30px;
 }
 
+.pricing-item .btn:hover {
+    transition: all .5s;
+    opacity: .8;
+}
+
 .pricing-item a {
     color: var(--bg-dark);
     font-weight: 600;
@@ -492,8 +502,18 @@ img {
     display: flex;
     justify-content: space-between;
     border-bottom: .8px solid #a1a4aa11;
+    cursor: pointer;
 
     padding: 24px 0;
+}
+
+.quest-box ion-icon {
+    font-size: 24px;
+}
+
+.quest-box:hover h3, .quest-box:hover ion-icon {
+    transition: all .5s;
+    opacity: .6;
 }
 
 /* Footer */
